@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work | Dev</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="https://media.discordapp.net/attachments/878520073793437737/1526623026286956594/favicon-modified.png?ex=6a57b1fc&is=6a56607c&hm=63cb237b0619c5aba296c92c02dffa2da1f3c4782fc47342ce9fa222df123433&=&format=webp&quality=lossless&width=839&height=839">
+</head>
+<body>
+    <nav class="glass-nav">
+        <div class="nav-brand">DEV.</div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="work.html" class="active">Work</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+
+    <main class="page-container">
+        <section class="work-section fade-in">
+            <h1 class="section-title">Selected Works</h1>
+            
+            <div class="filter-controls">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="videography">Videography</button>
+                <button class="filter-btn" data-filter="photography">Photography</button>
+                <button class="filter-btn" data-filter="editing">Video Editing</button>
+            </div>
+
+            <div class="portfolio-grid">
+                <div class="project-card" data-category="photography">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1554046920-90dc206963e8?auto=format&fit=crop&w=800&q=80" alt="Cinematic Portraits">
+                    </div>
+                    <div class="card-info">
+                        <h3>Neon Nights</h3>
+                        <p>Photography</p>
+                    </div>
+                </div>
+                <div class="project-card" data-category="videography">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1601506521937-0121a7fc2a6b?auto=format&fit=crop&w=800&q=80" alt="Commercial Shoot">
+                    </div>
+                    <div class="card-info">
+                        <h3>Urban Motion</h3>
+                        <p>Videography</p>
+                    </div>
+                </div>
+                <div class="project-card" data-category="editing">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?auto=format&fit=crop&w=800&q=80" alt="Post Production">
+                    </div>
+                    <div class="card-info">
+                        <h3>Brand Anthem</h3>
+                        <p>Video Editing</p>
+                    </div>
+                </div>
+                 <div class="project-card" data-category="photography">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?auto=format&fit=crop&w=800&q=80" alt="Landscape">
+                    </div>
+                    <div class="card-info">
+                        <h3>Silent Peaks</h3>
+                        <p>Photography</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+</html>
